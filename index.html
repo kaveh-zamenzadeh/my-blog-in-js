@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div >
+        <form style="background-image:url(./img/download.jfif); background-size: cover;" class="container mt-4 border border-3 arounded p-3 ps-4 pe-4">
+            <div class="d-flex justify-content-between">
+                <h2>MY BLOG</h2>
+                <h3 id="clock" onload="currentTime()"></h3>
+            </div>
+            <div class="post-row-top row">
+                <input id="post-name" class="form-control col me-3" placeholder="Enter your name..." type="text">
+                <input id="post-email" class="form-control col me-3" placeholder="Enter your Email..." type="email">
+            </div>
+            <div class="mt-2 row">
+                <input id="post-age" class="form-control col me-3" placeholder="Age..." type="number">
+                <input id="post-job" class="form-control col me-3" placeholder="Job..." type="text">
+                <input id="post-workexperience" class="form-control col " placeholder="Work experience..." type="number">
+            </div>
+            <div class="mt-2 row">
+                <input id="post-nationality" class="form-control col me-3" placeholder="Nationality..." type="text">
+                <input id="post-language" class="form-control col " placeholder="Language..." type="text">
+            </div>
+            <div class="post-row-mid row mt-2">
+                <textarea class="form-control form-control-lg w-100" name="post" id="post-resume" rows="10" placeholder="Enter Resume..."></textarea>
+            </div>
+            <div class=" row mt-2">
+                <div class="d-flex gap-4 mb-3">
+                    
+                   <h4>Enter profile image:</h4>
+                    <input id="image_input" type="file">
+                <a role="button" href="" name="submit" id="post-submit" class="btn btn-primary btn-lg col">Submit Resume</a>
+            </div>
+        </form>
+    </div>
+    <div style=" background-image:url(./img/download.jfif); background-size: cover;" id="form" class="container mt-4 mb-4 border d-flex flex-column gap-4  border-3 p-3 ps-4 pe-4 rounded">
+    </div>
+
+    <script type="module" src="./index.js"></script>
+</body>
+</html>

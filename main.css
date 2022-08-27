@@ -1,0 +1,18 @@
+html{
+    
+    font-size: 62.5%;
+    
+}
+#display_image{
+    width: 22rem;
+    height: 20.1rem;
+     
+}
+.gap-55{
+    gap: 20rem;
+}
+.btn1{
+    height: 3rem;
+    width: 8rem;
+    font-size: 1.6rem;
+}
